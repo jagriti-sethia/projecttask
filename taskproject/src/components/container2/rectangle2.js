@@ -15,7 +15,7 @@ SBS was founded in 1999 by Professor. Dr. (Col). A. Balasubramanian to
           alumni with global companies as well as link businesses with incisive
           and innovative thinking.
 </p>
-<p className='found2'>
+<div className='found2'>
 At BIMHRD we believe in providing our students a cutting edge over the
           others by Developing effective and responsible leaders by creating
           insightful knowledge and inspiring minds in dialogue with the world
@@ -25,7 +25,7 @@ At BIMHRD we believe in providing our students a cutting edge over the
 The institute always strives to be a management school with a
           difference.
 </p>
-</p>
+</div>
 
 <p className='found4'><i>Read more</i></p>
     </div>

@@ -25,11 +25,11 @@ export const Rectangle3 = () => {
                       practical exposure to students about the industry. </div>
                       <div className='readmore'><i>Read more</i></div>
     </div>
-                </div>
+                
                 <div className='balasir'>
-                    <img src='./balasir.png' alt='balasir' />
+                    <img src='../../../public/balasir.png' alt='balasir' />
                 </div>
-
+                </div>
             </div>
 
         
