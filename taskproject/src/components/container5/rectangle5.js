@@ -24,8 +24,10 @@ export const Rectangle5 = () => {
       </span>
       <span class="group11-text07"><span>36 LPA</span></span>
       <span class="group11-text09"><span>Highest Package</span></span>
+      
       <img src="/line141239-pt0d.svg" alt="Line141239" class="group11-line14" />
       <img src="/line151240-812k.svg" alt="Line151240" class="group11-line15" />
+      {/* <hr/> */}
       <img
         src="/line161241-lia7h.svg"
         alt="Line161241"

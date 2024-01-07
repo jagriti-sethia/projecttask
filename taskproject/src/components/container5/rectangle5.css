@@ -7,6 +7,7 @@
     flex-direction: column;
   }
   .group11-group11 {
+    margin-top: 10%;
     width: 1490px;
     height: 431px;
     display: flex;
@@ -74,10 +75,15 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  hr{
+    width: 40%;
+    height: 1px;
+  color: black;
+  }
   .group11-line14 {
     top: 103px;
     left: 833px;
-    width: 606px;
+    width: 40%;
     height: 1px;
     position: absolute;
   }
