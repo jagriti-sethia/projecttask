@@ -71,6 +71,8 @@
     width: 718px;
     height:718px;
  
-    background: url('../../../public/balasir.png');
+    background: url('../../../public/images/balasir.jpg');
+    /* object-position: 80% 100%; */
+    object-fit: contain;
    
 }

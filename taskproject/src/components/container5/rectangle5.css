@@ -1,0 +1,189 @@
+.group11-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .group11-group11 {
+    width: 1490px;
+    height: 431px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .group11-text {
+    top: 177px;
+    left: 3px;
+    color: rgba(0, 0, 0, 1);
+    width: 649px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 183.39998722076416%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text05 {
+    color: rgba(0, 0, 0, 1);
+    width: 669px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Cormorant;
+    font-weight: 600;
+    line-height: 117.60001182556152%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text07 {
+    top: 4px;
+    left: 833px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text09 {
+    top: 44px;
+    left: 1196px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-line14 {
+    top: 103px;
+    left: 833px;
+    width: 606px;
+    height: 1px;
+    position: absolute;
+  }
+  .group11-line15 {
+    top: 211px;
+    left: 833px;
+    width: 606px;
+    height: 1px;
+    position: absolute;
+  }
+  .group11-line16 {
+    top: 319px;
+    left: 833px;
+    width: 606px;
+    height: 1px;
+    position: absolute;
+  }
+  .group11-text11 {
+    top: 117px;
+    left: 833px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text13 {
+    top: 157px;
+    left: 1196px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text15 {
+    top: 225px;
+    left: 833px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text17 {
+    top: 265px;
+    left: 1196px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text19 {
+    top: 346px;
+    left: 833px;
+    color: rgba(227, 30, 36, 1);
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .group11-text21 {
+    top: 358px;
+    left: 1196px;
+    color: rgba(227, 30, 36, 1);
+    width: 294px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

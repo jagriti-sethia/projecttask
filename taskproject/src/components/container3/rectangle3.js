@@ -27,7 +27,7 @@ export const Rectangle3 = () => {
     </div>
                 
                 <div className='balasir'>
-                    <img src='../../../public/balasir.png' alt='balasir' />
+                    <img src='../../../public/images/balasir.jpg' alt='balasir' />
                 </div>
                 </div>
             </div>
