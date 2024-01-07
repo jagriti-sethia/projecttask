@@ -1,0 +1,70 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 1023px; /* Set the desired height for the video container */
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind the content */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the video */
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    padding-left: 10%;
+}
+.opace{
+    background: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 1023px; 
+}
+.welcome{
+    color: #FFF;
+font-family: Cormorant;
+font-size: 128px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 470px;
+}
+.wel2{
+    margin: 0;
+    color: #FFF;
+font-family: Cormorant;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+margin-top: -150px;
+}
+.btn2{
+    width: 240px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E31E24;
+  margin: 35px;
+}
+
+
+svg{
+    margin-top: -40px;
+}

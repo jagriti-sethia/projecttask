@@ -1,0 +1,65 @@
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+
+.rectangle2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+    height: auto;
+    background-color:  #3A3285;
+    justify-content: center;
+}
+
+.found1{
+    /* position: absolute;
+    top: 1316px;
+    left: calc(50% - 516px); */
+  line-height: 183.4%;
+  font-family: var(--font-raleway);
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 165px;
+  padding-top: 98px;
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183.4%; /* 33.012px */ 
+ 
+}
+.found2{
+    height: auto;
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 183.4%; /* 33.012px */
+padding-left: 20%;
+padding-right: 20%;
+}
+.found3{
+    height: auto;
+    color: #FFF;
+ text-align: center;
+ font-family: Raleway;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 183.4%; /* 33.012px */
+padding-left: 10%;
+padding-right: 10%;
+margin-top:   3%  ;
+}
+.found4{
+    text-decoration: underline;
+    color: #fff;
+    padding-bottom: 82px;
+}
