@@ -7,7 +7,7 @@ export const Rectangle9 = () => {
 
 <div className='banner'>
 <div class="image-container">
-<img class="centered-image" src="./center.png" alt="Centered Image"/>
+<img class="centered-image" src="./center.png" alt="Centered "/>
     </div>
     <div className='connect'>
         <p>Stay Connected, Stay Inspired</p>
