@@ -14,9 +14,10 @@ import   { One } from './components/container/one';
 function App() {
   return (
     <div className="App">
-      <Routes>
+       <Routes>
       <Route path="/" element={<One />} />
     </Routes>
+    
     </div>
   );
 }
