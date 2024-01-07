@@ -6,25 +6,25 @@ export const Rectangle6 = () => {
     <div className='container-fluid'>R
 <div className='cont1'>
     <div className='imgsec'>
-        <img src='../../../public/images/image-14@2x.png' alt=''/>
+        <img src='./hcl.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='../../../public/images/image-16@2x.png' alt=''/>
+        <img src='./wipro.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='../../../public/images/image-17@2x.png' alt=''/>
+        <img src='./ibm.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='../../../public/images/image-18@2x.png' alt=''/>
+        <img src='./xebia.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='../../../public/images/image-19@2x.png' alt=''/>
+        <img src='./google.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='' alt=''/>
+        <img src='./delloite.png' alt=''/>
     </div>
     <div className='imgsec'>
-        <img src='' alt=''/>
+        <img src='./genpact.png' alt=''/>
     </div>
 </div>
     </div>

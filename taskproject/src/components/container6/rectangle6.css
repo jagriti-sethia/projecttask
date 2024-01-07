@@ -3,10 +3,12 @@
     flex-wrap: wrap;
     gap: 0.6rem;
     justify-content: space-evenly;
-    padding-bottom: 2 rem;
+    
+
 }
 
 .cont1 img{
-    width:10%;
-height: 10%;
+    width:150px;
+   height: 150px;
+   object-fit: contain;
 }
