@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
   }
   .group11-group11 {
     margin-top: 4%;
