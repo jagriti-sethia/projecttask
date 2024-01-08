@@ -3,12 +3,3 @@
   margin: 0;
   padding: 0;
 }
-.container-fluid{
-  width: 100%;
-  display: flex;
-  overflow: auto;
-
-  margin: 0;
-  padding: 0;
-  flex-direction: column;
-}

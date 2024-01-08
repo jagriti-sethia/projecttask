@@ -6,18 +6,19 @@ export const Rectangle9 = () => {
     <div className='container-fluid'>
 
 <div className='banner'>
+    
 <div class="image-container">
 <img class="centered-image" src="./center.png" alt="Centered "/>
     </div>
     <div className='connect'>
-        <p>Stay Connected, Stay Inspired</p>
+        <span className='stay'>Stay Connected, Stay Inspired <br/>
+        <span className='latest'>Explore the Latest News and Events at BIMHRD</span></span>
+     
         <div class="line-container">
         <hr class="custom-line"/>
     </div>
     </div>
-    <div className='latest'>
-        <p>Explore the Latest News and Events at BIMHRD</p>
-    </div>
+    
     <div className='combine'>
 <div className='last'>
 <div className='blueflex'>
@@ -39,7 +40,7 @@ export const Rectangle9 = () => {
         </div>
 
     </div>
-    <div className='line'></div>
+    
     <div className='blueflex'>
 
         <div className='rightwala'>
@@ -103,7 +104,7 @@ export const Rectangle9 = () => {
 
     
     </div>
-
+<div className='over'></div>
 </div>
     </div>
   )

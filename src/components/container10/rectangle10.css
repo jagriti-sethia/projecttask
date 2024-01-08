@@ -2,7 +2,7 @@
     display: flex;
     background: url(../../../public/explo.png);
     width: 100%;
-    height:600px;
+    height:1000px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,25 +17,25 @@
    margin-top: -590px;
 }
 .extext p{
-    color: #FFF;
+    color: white;
     text-align: center;
     font-family: Cormorant;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
     line-height: 108.6%; /* 104.256px */
-    top: 182px;
-    left: 25%;
-    position: absolute;
+    top: 82px;
+    left: 5%;
+    position: relative;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    z-index: 100;
+    z-index: 3;
 }
-.btn{
-    top: 482px;
-    left: 45%;
-    position: absolute;
+.btng{
+    top: 102px;
+    left: 5%;
+    position: relative;
     border: none;
   color: white;
   padding: 15px 32px;
@@ -45,31 +45,31 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #E31E24;
+  background-color: #f3050d;
+  z-index: 3;
 }
 
 .white{
     display: flex;
     flex-direction: column;
-    width: 1934px;
-height: 1379px;
+    
+
 flex-shrink: 0;
 border-radius: 78px;
 background: #F1F3ED;
-width: 100%;
-margin-top: -50px;
+
 }
 .halfwhite{
 display: flex;
 flex-direction: row;
 margin-top: 70px;
-width: 100%;
+
 flex-wrap: wrap;
 }
 .halfblue{
     display: flex;
     flex-direction: row;
-    width: 100%;
+   
     flex-wrap: nowrap;
 height: 555px;
 flex-shrink: 0;
@@ -81,14 +81,14 @@ background: #3A3285;
    
 }
 .darkblue{
-    width: 100%;
+    
 height: 86px;
 flex-shrink: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background: #19163A;
-    width: 100%;
+   
     color: white;
     justify-content: space-between;
     padding-top: 10px;
@@ -274,14 +274,11 @@ height: 195.296px;
 transform: rotate(-0.616deg);
 flex-shrink: 0;
 }
-.grad{
-    position: absolute;
-    background: linear-gradient(180deg, rgba(241, 243, 237, 0.00) 0%, #F1F3ED 100%);
-    width: 708px;
-height: 147px;
-flex-shrink: 0;
-top:427px
-}
+
+.grad {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+  }
 .connectlink{
     display: flex;
     flex-direction: row;
@@ -292,11 +289,9 @@ top:427px
 
 
 @media screen and (max-width: 500px) {
-    .aboutslink{
-        flex-wrap: wrap;
-    }
-    .halfblue{
-        flex-wrap: wrap;
+   
+    .explore{
+        background-size: contain;
     }
 
 }

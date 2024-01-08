@@ -1,41 +1,48 @@
 .banner {
     display: flex;
     background: url(../../../public/backimg.png);
-    width: 100%;
-    height:1100px;
+    
+    height:500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    padding-top: 40%;
+    padding-top: 90%;
     justify-content: center;
-    align-items: center;
-    position: relative;
+  position: relative;
     ;
     
 }
+/* .over {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180deg, #264191 0%, rgba(38, 65, 145, 0.00) 100%);
+   
+    width: 100%;
+    
+  } */
 .image-container {
-    top: 20%;
+    top: 5%;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px; /* Set the desired height for the container */
-    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  
 }
 
 .centered-image {
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
     max-height: 100%; /* Ensure the image doesn't exceed the container height */
-    width: 673.464px;
-height: 673.464px;
+    width: 773.464px;
+height: 773.464px;
 transform: rotate(-0.616deg);
 /* flex-shrink: 0; */
 border: 0px;
 object-fit: contain;
 mix-blend-mode: overlay;
 }
-.connect p{
+.stay{
     color: #FFF;
     text-align: center;
     font-family: Cormorant;
@@ -44,7 +51,7 @@ mix-blend-mode: overlay;
     font-weight: 600;
     line-height: 108.6%; /* 104.256px */
     top: 282px;
-    left: 12%;
+    left: 15%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -60,7 +67,7 @@ mix-blend-mode: overlay;
     width: 50%; /* Set the desired width of the line */
     margin: 20px auto; /* Adjust the margin for positioning */
 }
-.latest p{
+.latest {
     color: #FFF;
 text-align: center;
 font-family: Cormorant;
@@ -68,9 +75,9 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: 108.6%; /* 39.096px */
-top: 530px;
-left: 27%;
-position: absolute;
+top: 282px;
+    left: 15%;
+    position: absolute;
 }
 .blueflex{
 display: flex;
@@ -94,6 +101,7 @@ text-align: left;
     display: flex;
     flex-direction:column ;
     top: 800px;
+    
     position: absolute;
 }
 .uper p{
@@ -138,7 +146,8 @@ width: 334px;
         flex-direction:row ;
         padding-bottom: 5%;
         padding-left: 2%;
-        border-bottom: 2px dotted rgb(246, 246, 247)
+        border-bottom: 2px dotted rgb(246, 246, 247);
+        
     
 }
 .first{
@@ -146,11 +155,46 @@ width: 334px;
     flex-direction:row ;
     padding-bottom: 5%;
     padding-left: 2%;
-    border-bottom: 2px dotted rgb(246, 246, 247)
+    border-bottom: 2px dotted rgb(246, 246, 247);
+    
 
 }
 .line{
     width: 5px;
 height: 115px;
 background: #FFF;
+}
+@media screen and (max-width: 500px) {
+    .stay {
+        top: 82px;
+        left: 5%;
+        position: absolute;
+        font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.6%; /* 104.256px */
+
+    }
+    .latest{
+        top: 222px;
+       left: 2%;
+        position: absolute;
+        padding-right: 4%;
+    }
+    .combine{
+        display: flex;
+        flex-direction:column ;
+        top: 400px;
+        position: absolute;
+    }
+    .last{
+        flex-wrap:wrap;
+        margin: 4%;
+    }
+    .first{
+        flex-wrap:wrap;
+        margin: 4%;
+    }
+    
+    
 }

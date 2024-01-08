@@ -1,6 +1,5 @@
 import React from 'react';
 import { Rectangle1 } from '../container1/rectangle1';
-
 import { Rectangle10 } from '../container10/rectangle10';
 import Rectangle2 from '../container2/rectangle2';
 import { Rectangle3 } from '../container3/rectangle3';
@@ -22,6 +21,7 @@ export const One = () => {
     <Rectangle7/>
     <Rectangle8/>
     <Rectangle9/>
-    <Rectangle10/></div>
+    <Rectangle10/>
+    </div>
   )
 }

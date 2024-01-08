@@ -3,7 +3,7 @@ import './rectangle6.css';
 
 export const Rectangle6 = () => {
   return (
-    <div className='container-fluid'>R
+    <div className='container-fluid'>
 <div className='cont1'>
     <div className='imgsec'>
         <img src='./hcl.png' alt=''/>

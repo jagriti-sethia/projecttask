@@ -7,11 +7,11 @@ export const Rectangle7 = () => {
     <div className='ladies'>
         <img src='./buswomen.png' alt='women'/>
         </div>
-    <div className='text'> 
-    <div className='person'><p>Personalized Guidance Tailored to Your Ambitions</p></div>
-    <div className='journey'><p>
+    <div className='text7'> 
+    <div className='person7'><p>Personalized Guidance Tailored to Your Ambitions</p></div>
+    <div className='journey7'>
     Let's Navigate Your Academic Journey Together, 
-Get in touch with us</p></div>
+Get in touch with us</div>
 <div className='reactform'>
 <form>
     

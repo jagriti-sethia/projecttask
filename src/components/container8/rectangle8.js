@@ -17,7 +17,8 @@ const Rectangle8 = () => {
   <path d="M1 18L9 9.5L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <div>
+        <div className='card'>
+        <div >
             {/* //card */}
             <div class="testimonial-card">
                 <span className='coma'>“</span>
@@ -69,7 +70,7 @@ const Rectangle8 = () => {
     </div>
         </div>
         
-       
+        </div>
       </div>
     </div>
   )

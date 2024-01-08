@@ -1,16 +1,12 @@
 .container-fluid{
-    width: 100%;
-    display: flex;
-    overflow: auto;
- 
-    
-    flex-direction: column;
-  }
+   margin: 0;
+   padding: 0;
+}
 .video-container {
     position: relative;
     width: 100%;
     height: auto; /* Set the desired height for the video container */
-    overflow: hidden;
+    
 }
 
 video {
