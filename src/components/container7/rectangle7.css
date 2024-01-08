@@ -12,12 +12,14 @@
 
 .ladies{
     width: 300px;
+    display: flex;
     
 }
 .ladies img{
-    width: 878px;
+    width: 678px;
     margin-top: 10%;
     object-fit: contain;
+    justify-items: flex-end;
 }
 .text{
     width: 50%;
