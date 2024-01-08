@@ -17,6 +17,7 @@ export const Header = () => {
     <a href="#contact">Research</a>
     <a href="#contact">Recruiters</a>
     <a href="#contact">Contact us</a>
+    <button><a href="#contact">Apply now</a></button>
   </div>
 </div>
     </div>
