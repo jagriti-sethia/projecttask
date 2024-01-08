@@ -60,7 +60,7 @@ line-height: 5%; /* 98.976px */
 .sec1{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     justify-content: space-evenly;
     padding-top: 5%;
