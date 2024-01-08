@@ -74,7 +74,11 @@ flex-wrap: wrap;
 height: 555px;
 flex-shrink: 0;
 background: #3A3285;
-}.darkblue{
+}
+.halfblue div{
+    flex:1;
+}
+.darkblue{
     width: 100%;
 height: 86px;
 flex-shrink: 0;
@@ -195,13 +199,14 @@ margin-top: 5%;
 }
 .addmlink{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-top: 5%;
 
 }
 .aboutslink{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-top: 20%;
 }
 .hed{
