@@ -33,6 +33,7 @@ export const Rectangle10 = () => {
                     <div className='girl'>
                         {/* <div className='imagegrl'></div> */}
                         <img src='./happygirl.png' alt=''></img>
+                        <div className='grad'></div>
                     </div>
                 </div>
                 <div className='halfblue'>
@@ -61,6 +62,24 @@ export const Rectangle10 = () => {
                                 <p>Addmission Process</p>
                                 <p>FAQ'S</p>
                                 <p>Important contacts</p>
+                            </div>
+                        </div>
+                        <p className='addm'>Connect</p>
+                        <div className='connectlink'>
+                            <div className='spot'>
+                            <svg width="100" height="100">
+              <circle cx="25" cy="25" r="20" fill="white"/>
+ 
+</svg>
+<svg width="100" height="100">
+              <circle cx="25" cy="25" r="20" fill="white"/>
+ 
+</svg>
+<svg width="100" height="100">
+              <circle cx="25" cy="25" r="20" fill="white"/>
+ 
+</svg>
+ 
                             </div>
                         </div>
                     </div>

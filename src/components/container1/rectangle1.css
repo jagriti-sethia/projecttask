@@ -1,7 +1,15 @@
+.container-fluid{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+ 
+    
+    flex-direction: column;
+  }
 .video-container {
     position: relative;
     width: 100%;
-    height: 1023px; /* Set the desired height for the video container */
+    height: auto; /* Set the desired height for the video container */
     overflow: hidden;
 }
 
@@ -27,7 +35,7 @@ video {
 .opace{
     background: rgba(0, 0, 0, 0.70);
     width: 100%;
-    height: 1023px; 
+     
 }
 .welcome{
     color: #FFF;
@@ -36,7 +44,9 @@ font-size: 128px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-margin-top: 470px;
+padding-top: 10%;
+
+
 }
 .wel2{
     margin: 0;
@@ -65,6 +75,7 @@ margin-top: -150px;
 }
 
 
-svg{
-    margin-top: -40px;
+.circle{
+    padding-top: 300px;
+    padding-bottom: 20px;
 }

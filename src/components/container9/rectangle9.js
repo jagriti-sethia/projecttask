@@ -38,7 +38,10 @@ export const Rectangle9 = () => {
             </div>
         </div>
 
-    </div><div className='blueflex'>
+    </div>
+    <div className='line'></div>
+    <div className='blueflex'>
+
         <div className='rightwala'>
             <div className='uper'>
                 <p>Date</p>
