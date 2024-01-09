@@ -1,0 +1,197 @@
+.rect12{
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 30%,                                                                 
+        #3A3285 30%,
+        #3A3285 100%
+    );
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    
+}
+.rect12 div{
+    width: 32%;
+    margin: auto;
+}
+.redbox{
+    width: 498px;
+    height: 630px;
+    flex-shrink: 0;
+    background: #E31E24;
+
+}
+.flex2{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+.redbox img{
+    width: 195.296px;
+height: 195.296px;
+transform: rotate(-0.616deg);
+flex-shrink: 0;
+
+}
+.red1{
+    color: #FFF;
+font-family: Cormorant;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.red2{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.3%; /* 20.394px */
+}
+.red3{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.3%; /* 20.394px */
+}
+.red4{
+    width: 444px;
+height: 107px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 163.3%; /* 29.394px */
+}
+.addm{
+    color: #FFF;
+font-family: Cormorant;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 116.861%; /* 37.396px */
+text-decoration: underline;
+}
+.righta p{
+    width: 184px;
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.lefta p{
+    width: 184px;
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.addmlink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+ 
+
+}
+.righta{
+    flex: 1;
+}
+.lefta{
+    flex: 1;
+}
+.righta p{
+    
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.lefta p{
+    width: 184px;
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.3%; /* 20.394px */
+}
+.aboutslink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+}
+.hed{
+    color: #FFF;
+font-family: Cormorant;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 116.861%; /* 37.396px */
+text-decoration: underline;
+}
+.connectlink{
+    display: flex;
+    flex-direction: row;
+}
+.spot{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.spot svg{
+ color:white;
+}
+.darkblue{
+    
+    height: 86px;
+    flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: #19163A;
+       
+        color: white;
+        justify-content: space-between;
+        padding-top: 10px;
+        
+        
+    }
+    .darkblue p{
+        padding-left: 5px ;
+    }
+    .footer{
+       
+        display: flex;
+        flex-direction: row;
+       
+    
+    }
+    .footer button{
+       
+        border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 4px;
+      cursor: pointer;
+      background: #3A3285;
+    }

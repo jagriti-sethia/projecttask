@@ -1,0 +1,142 @@
+.rect11{
+    display: flex;
+    flex-direction: column;
+}
+.explore{
+    flex: 2S;
+    background-image:
+    linear-gradient(180deg, #264191 0%, rgba(38, 65, 145, 0.00) 100%),
+    url('../../../public/explo.png');
+    
+    height: 700px;
+    background-size: cover;
+    color: white;
+    padding-bottom: 5%;
+    
+}
+.extext p{
+    color: white;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.6%; /* 104.256px */
+    top: 82px;
+    left: 5%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    z-index: 3;
+}
+.btng{
+    top: 102px;
+    left: 5%;
+    /* position: relative; */
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #f3050d;
+  z-index: 3;
+}
+.rounddiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius:  78px 78px 0 0; 
+    background: white;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.join{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.p1{    color: #000;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.861%; /* 56.094px */
+    text-align: left;}
+.p2{
+    color: #3A3285;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-top: -50px;
+}
+.btn1{
+    width: 240px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E31E24;
+    margin-top: -50px;
+}
+.girl{
+    flex: 1;
+    /* position: relative; */
+    height: auto;
+   
+}
+.girl img{
+    width: 711px;
+height: 574px;
+object-fit: contain;
+padding-bottom: 8%;
+
+}
+.grad{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+@media screen and (max-width: 786px) {
+ .extext{
+    font-size: 69px;
+    text-align: justify;
+ } 
+ .btng{
+    top:84px;
+    left: 5%;
+ }  
+ .girl img{
+    width: 300px;
+height: 300px;
+object-fit: contain;
+padding-bottom: 8%;
+
+}
+.rounddiv{
+    flex-direction: column;
+}
+.join{
+    width: 100%;
+    padding-left: 2%;
+}
+.p1{
+    font-size: 30px;
+}
+.p2{
+    font-size: 69px;
+}
+}

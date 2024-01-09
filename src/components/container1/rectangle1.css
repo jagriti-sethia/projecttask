@@ -4,7 +4,7 @@
 }
 .video-container {
     position: relative;
-    width: 100%;
+    
     height: auto; /* Set the desired height for the video container */
     
 }
@@ -21,6 +21,8 @@ video {
 
 .content {
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 1; /* Ensure the content is above the video */
     text-align: center;
     color: white;
@@ -34,6 +36,7 @@ video {
      
 }
 .welcome{
+    
     color: #FFF;
 font-family: Cormorant;
 font-size: 128px;
@@ -74,4 +77,17 @@ margin-top: -150px;
 .circle{
     padding-top: 300px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    /* .content {text-align: justify;} */
+    .welcome{
+        font-size: 64px;
+    }
+    .wel2{
+        margin-top: 10px; 
+    }
+    .btn2{
+        margin-top: 150px;
+    }
 }

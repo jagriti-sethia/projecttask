@@ -65,3 +65,14 @@
     color: #fff;
     padding-bottom: 82px;
 }
+@media screen and (max-width: 768px) {
+    .found1{
+        text-align: justify;
+    }
+    .found2{
+        text-align: justify;
+    }
+    .found3{
+        text-align: justify;
+    }
+}

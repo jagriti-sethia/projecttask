@@ -93,7 +93,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 103.1%; /* 65.984px */
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .card {
      width: 100%;
      padding-left: 10%;

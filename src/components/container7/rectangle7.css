@@ -1,6 +1,6 @@
 .rect7{
     display: flex;
-   
+   height: auto;
     flex-wrap: wrap;
      justify-content: space-between;
      background: linear-gradient(90deg, #3A3285 3.08%, #E31E24 98.72%);
@@ -50,7 +50,7 @@
    
 }
 .reactform{
-    height: 250px;
+    height: auto;
 }
 form{
     display: flex;
@@ -93,4 +93,21 @@ font-size: 13px;
 font-style: normal;
 font-weight: 500;
 line-height: 155.6%; /* 20.228px */
+}
+.ladies img{
+    padding-top: 29%;
+    width: 618px;
+   object-fit: contain;
+    
+}
+@media screen and (max-width: 786px) {
+    .ladies img{
+        padding-top: 9%;
+        width: 300px;
+       object-fit: contain;
+       align-items: center;
+    }
+    .rect7{
+        flex-wrap: wrap-reverse;
+    }
 }
