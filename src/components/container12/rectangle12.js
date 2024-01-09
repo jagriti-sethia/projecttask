@@ -17,7 +17,7 @@ export const Rectangle12 = () => {
             {/* red end */}
 
             <div className='flex2'>
-                <p className='addm'>New Admissions</p>
+                <div className='addm'>New Admissions</div>
                 <div className='addmlink'>
                     <div className='righta'>
                         <p>Important date</p>
@@ -30,7 +30,7 @@ export const Rectangle12 = () => {
                         <p>Important contacts</p>
                     </div>
                 </div>
-                <p className='addm'>Connect</p>
+                <div className='addm'>Connect</div>
                 <div className='connectlink'>
                     <div className='spot'>
                         <svg width="100" height="100">
