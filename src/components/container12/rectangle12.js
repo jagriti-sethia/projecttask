@@ -2,7 +2,7 @@ import React from 'react'
 import './rectangle12.css';
 export const Rectangle12 = () => {
     return (
-        <div>
+        <div className='backdiv'>
         <div className='rect12'>
 
             <div className='redbox'>

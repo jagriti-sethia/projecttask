@@ -1,0 +1,78 @@
+.rounded{
+    display: flex;
+    flex-direction: column;
+    border-radius:  10% 10% 0 0; 
+    background: white;
+   
+   
+}
+.rectangle13{
+    display: flex;
+   flex-direction: row;
+   padding-bottom: 106px;
+   flex-wrap: wrap;
+   justify-content: center;
+    padding-top: 10%;
+  
+  
+   
+}
+.text13{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    padding: 0 0 0 10%;
+}
+.p131{
+    color: #000;
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.861%; /* 56.094px */
+    text-align: left;
+}
+.p132{
+    color: #3A3285;
+    font-family: Cormorant;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    /* margin-top: -50px; */
+}
+.p133 button{
+    width: 240px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E31E24;
+    /* margin-top: -50px; */
+}
+.girl{
+    flex: 1;
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+   
+}
+.girl img{
+    width: 711px;
+height: 574px;
+object-fit: contain;
+
+
+}
+.grad{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}

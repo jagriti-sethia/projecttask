@@ -11,6 +11,7 @@ import Rectangle8  from '../container8/rectangle8';
 import { Rectangle9 } from '../container9/rectangle9';
 import { Rectangle11 } from '../container11/rectangle11';
 import { Rectangle12 } from '../container12/rectangle12';
+import { Rectangle13 } from '../container13/rectangle13';
 
 export const One = () => {
   return (
@@ -25,6 +26,7 @@ export const One = () => {
     <Rectangle9/>
     {/* <Rectangle10/> */}
     <Rectangle11/>
+    <Rectangle13/>
     <Rectangle12/>
     </div>
   )
